@@ -17,8 +17,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 app = pyrogram.Client("app", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-but = InlineKeyboardMarkup([[InlineKeyboardButton("Help 🤔", callback_data="Help"), InlineKeyboardButton("Close 🔐", callback_data="close")],[InlineKeyboardButton("Updates ⬆", url="https://t.me/dengerousbots"), InlineKeyboardButton("Developer", url="t.me/ABHI_VILAN")]])
-butt = InlineKeyboardMarkup([[InlineKeyboardButton("Home 🏠", callback_data="home"), InlineKeyboardButton("Updates ⬆", url="https://t.me/dengerousbots")], [InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/TeamUnknwon"), InlineKeyboardButton("Close 🔐", callback_data="close")]])
+but = InlineKeyboardMarkup([[InlineKeyboardButton("Help 🤔", callback_data="Help"), InlineKeyboardButton("Close 🔐", callback_data="close")],[InlineKeyboardButton("Updates ⬆", url="https://t.me/joinchat/wxtZQzEqGA9iYjc1"), InlineKeyboardButton("Developer", url="Satan_sinx")]])
+butt = InlineKeyboardMarkup([[InlineKeyboardButton("Home 🏠", callback_data="home"), InlineKeyboardButton("Updates ⬆", url="https://t.me/joinchat/wxtZQzEqGA9iYjc1")], [InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/The_Sinners_Empire"), InlineKeyboardButton("Close 🔐", callback_data="close")]])
 
 
 @app.on_message(filters.command(["start"]))
@@ -27,7 +27,7 @@ async def start(lel, message):
 
 @app.on_message(filters.command(["help"]))
 async def help(ha, message):
-    await app.send_message(message.chat.id, """**There is nothing no more..!\nJust add me to your channel give rights to delete message and post messages and whichever forwarded message received I will send again without forward tag.\n\nMade with ❤️ by @ABHI_VILAN**""", reply_markup=butt) 
+    await app.send_message(message.chat.id, """**There is nothing no more..!\nJust add me to your channel give rights to delete message and post messages and whichever forwarded message received I will send again without forward tag.\n\nMade with ❤️ by @Satan_sinx**""", reply_markup=butt) 
 
 @app.on_callback_query()
 async def button(app, update):
