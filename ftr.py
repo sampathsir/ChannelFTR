@@ -17,8 +17,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 app = pyrogram.Client("app", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-but = InlineKeyboardMarkup([[InlineKeyboardButton("Help 🤔", callback_data="Help"), InlineKeyboardButton("Close 🔐", callback_data="close")],[InlineKeyboardButton("Updates ⬆", url="https://t.me/sinnerBots"), InlineKeyboardButton("Developer", url="https://t.me/Satan_sinx")]])
-butt = InlineKeyboardMarkup([[InlineKeyboardButton("Home 🏠", callback_data="home"), InlineKeyboardButton("Updates ⬆", url="https://t.me/sinnerbots")], [InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/The_Sinners_Empire"), InlineKeyboardButton("Close 🔐", callback_data="close")]])
+but = InlineKeyboardMarkup([[InlineKeyboardButton("Help 🤔", callback_data="Help"), InlineKeyboardButton("Close 🔐", callback_data="close")],[InlineKeyboardButton("Updates ⬆", url="https://t.me/sinx_updates"), InlineKeyboardButton("Developer", url="https://t.me/Satan_sinx")]])
+butt = InlineKeyboardMarkup([[InlineKeyboardButton("Home 🏠", callback_data="home"), InlineKeyboardButton("Updates ⬆", url="https://t.me/sinx_updates")], [InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/The_Sinners_Empire"), InlineKeyboardButton("Close 🔐", callback_data="close")]])
 
 
 @app.on_message(filters.command(["start"]))
