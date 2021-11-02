@@ -6,11 +6,11 @@
 
 ## Sample bot
 
-- **Sample bot can be found on telegram as [@ChannelFTRBot](https://t.me/ChannelFTRBot)**
+- **Sample bot can be found on telegram as [ChannelFTRBot](https://t.me/UcChannelftrbot)**
 
 ## Support
  
-- **Join [Support Group](https://t.me/BotzCityChat) For Any Help...!**
+- **Join [Support Group](https://t.me/TheRoyalBots) For Any Help...!**
 
 ## Updates
 
@@ -18,6 +18,4 @@
 
 ## Credits
 
-- **[Me](https://t.me/Alain_xD)**
-- **[InukaAsith](https://t.me/InukaAsith)** 
-- **[Pyrogram](https://docs.pyrogram.org)**
+- **[Me](https://t.me/ABHI_VILAN)**
